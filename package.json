@@ -1,7 +1,6 @@
 {
   "name": "LIRI-Node-App",
   "version": "1.0.0",
-  "description": "",
   "main": "keys.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/Zy-phr/LIRI-Node-App/issues"
   },
-  "homepage": "https://github.com/Zy-phr/LIRI-Node-App#readme"
+  "homepage": "https://github.com/Zy-phr/LIRI-Node-App#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "fs": "0.0.1-security",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
+  "description": ""
 }
